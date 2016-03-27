@@ -1,4 +1,4 @@
-package lasaCTF.Web_Exploitation;
+package lasaCTF.Postman;
 
 import java.io.BufferedReader;
 import java.io.IOException;
