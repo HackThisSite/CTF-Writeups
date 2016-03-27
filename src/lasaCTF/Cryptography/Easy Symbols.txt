@@ -1,0 +1,14 @@
+Problem Info:
+{
+  "name": "Easy Symbols",
+  "category": "Cryptography",
+  "description": "Force, course, horse, norse, source, torse. What does {{url_for(\"EZ.txt\", display=\"this\")}} mean? <br><strong>Note: Flag not in LASACTF{} format</strong>",
+  "hints": ["The flag shouldn't have spaces"],
+  "score" : 20,
+  "author": "Wilson",
+  "organization": "LASACS"
+}
+Problem file:
+&& &&& !&! !!! ! !&& !& !!! &!&! &&& &&& !&!!
+This one is pretty straight forward, just replace &'s with dashes, and !'s with .,s and you get morse code for:
+"morsewascool"
