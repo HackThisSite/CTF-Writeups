@@ -1,0 +1,44 @@
+*** THIS IS A SHORT EXAMPLE LOG FILE ***
+
+Welcome to Faster Math
+======================
+
+Hey, thanks for your help. I'm having trouble solving some
+of these problems, and the time limit isn't helping!
+
+Solve this problem in 30.0 seconds.
+Fill the operations (+, -, or x) in the blanks. Return 3 operations separated by nothing: (((217 _ 249) _ 34) _ 188) = -1276
+WE SENT: -x-
+Solve this problem in 29.63 seconds.
+I was going to the checkout at the pizzeria to pay for my $1.68 purchase, when I discovered that I had left my credit cards at home! Frantically digging through my bag for change, I discovered that I had expendable quantities of dimes, quarters, nickels, pennies, and ten-dollar bills. As I way paying for my purchase, I began to wonder... how many ways could I make $1.68 using just dimes, quarters, nickels, pennies, and ten-dollar bills?
+WE SENT: 874
+
+Solve this problem in 29.25 seconds.
+Fill the operations (+, -, or x) in the blanks. Return 3 operations separated by nothing: (((31 _ 141) _ 342) _ 72) = -37548
+WE SENT: -x+
+Solve this problem in 28.89 seconds.
+Find the value of the lesser root: 205x^2 + 84255x + 2697800
+WE SENT: -376
+
+Solve this problem in 28.53 seconds.
+Fill the operations (+, -, or x) in the blanks. Return 3 operations separated by nothing: (((89 _ 4) _ 162) _ 81) = 20007
+WE SENT: -+x
+Solve this problem in 28.17 seconds.
+Find the value of the lesser root: 106x^2 + 13038x - 7761744
+WE SENT: -339
+
+Solve this problem in 27.82 seconds.
+A jar of coffee is projected from the side of a desk at a velocity of 910 m/s. Given that the desk is 245 m tall, the jar of coffee is 19 g and the Earth's gravitational constant is 10 m/s^2, calculate the distance from the desk where the jar of coffee first touches the floor.
+WE SENT: 6370
+Solve this problem in 27.47 seconds.
+Fill the operations (+, -, or x) in the blanks. Return 3 operations separated by nothing: (((41 _ 91) _ 322) _ 99) = -91
+WE SENT: +-+
+Solve this problem in 27.13 seconds.
+Fill the operations (+, -, or x) in the blanks. Return 3 operations separated by nothing: (((293 _ 375) _ 90) _ 402) = 3975277500
+WE SENT: xxx
+Solve this problem in 26.79 seconds.
+Find the value of the greater root: 129x^2 + 7869x - 13716054
+WE SENT: 297
+
+Solve this problem in 26.45 seconds.
+Find the value of the lesser root: 172x^2 - 61060x + 5324088

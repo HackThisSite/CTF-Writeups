@@ -1,0 +1,20 @@
+# First line is plaintext (from file knownplaintext3.in) and second line is
+# ciphertext (expected output)
+
+e H\\MwmGH@T.]_Hb\x0b<\x0b_]M]<3{\x0b4\nE\x0b9[
+495d4e786e484941552f5e5g4928630c3d0c5g5e4e5e3d347c0c350b460c3:5c
+
+e ,gPD\tU=y@bzgR\\n\n@%tl`HB(zWQ(_~~\n
+2d6851450:563e7:41637b68535d6f0b4126756d614943297b5852295g7f7f0e
+
+e P#ZI:q{^I .O+T{Yu\\z\tM}TP\txf
+51245b4:3b727c5f4:212f4g2c557c5:765d7b0:4e7e55510:793d7172473f67
+
+e iU*$->K0b#5+D7m-wm0I?nKbI =nAnyt
+6:562b252e3f4c316324362c45386e2e786e314:3g6f4c634:213e6f426f7:75
+
+e lHxX%sUCd~_|aE7(ggwy,^qBkY\x0bJx%O?
+6d49795926745644657f5g7d624638296868787:2d5f72436c5:0c4b79264g3g
+
+e #\ns%:OtufN\n\x0cnF#_5KF\x0buCp'|R5RVGdA
+240e74263b4g7576674f0e0d6f47245g364c470c764471287d53365357486542

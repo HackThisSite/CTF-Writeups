@@ -1,0 +1,16 @@
+# First line is plaintext (from file knownplaintext3.in) and second line is
+# ciphertext (expected output)
+e wozuXHwYNKkwifnDKNZVuooxJdQnhQCY
+siPrYDsonVNsdecyVnSJriibIRpcwpKo
+
+e aJTBuLcQAlglqVBSaUXvifDStAKGsNdF
+hItWrBMpCuFuaJWHhfYXdeyHUCVGZnRz
+
+e hZWPlTIiIZSdGooAccynMOQlLvdRqDEj
+wSxqutOdOSHRGiiCMMjcLQpuBXRmaygT
+
+e BwShXuzrzOoVDjXmBsIskxUMfPRFrJqY
+WsHwYrPkPQiJyTYAWZOZNbfLeqmzkIao
+
+e xRUsegwZOXlUKEKHFVcvaeiBTYZCuMwM
+bmfZEFsSQYufVgVDzJMXhEdWtoSKrLsL

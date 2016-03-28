@@ -1,0 +1,55 @@
+23:15:03.649643 IP 192.168.1.89.37287 > resolver1.opendns.com.domain: 14365+ A? 496e2074686520656e642c206974277320616c6c2061626f757420666c61.2015.ctf.internetwache.org. (105)
+23:15:03.649668 IP 192.168.1.89.37287 > resolver1.opendns.com.domain: 61442+ AAAA? 496e2074686520656e642c206974277320616c6c2061626f757420666c61.2015.ctf.internetwache.org. (105)
+23:15:03.906012 IP resolver1.opendns.com.domain > 192.168.1.89.37287: 61442 1/0/0 AAAA 2001:1a50:11:0:5f:8f:ac3a:33 (133)
+23:15:04.794020 IP resolver1.opendns.com.domain > 192.168.1.89.37287: 14365 1/0/0 A 95.143.172.58 (121)
+23:15:05.468810 IP 192.168.1.89.49566 > cygnus.uberspace.de.http: Flags [P.], seq 3691446274:3691446433, ack 316188660, win 229, options [nop,nop,TS val 10971040 ecr 899022659], length 159: HTTP: GET /flag.txt HTTP/1.1
+23:15:06.757635 IP 192.168.1.89.47352 > resolver1.opendns.com.domain: 29210+ A? 67732e0a5768657468657220796f752077696e206f72206c6f736520646f.2015.ctf.internetwache.org. (105)
+23:15:06.757677 IP 192.168.1.89.47352 > resolver1.opendns.com.domain: 25096+ AAAA? 67732e0a5768657468657220796f752077696e206f72206c6f736520646f.2015.ctf.internetwache.org. (105)
+23:15:06.987626 IP resolver1.opendns.com.domain > 192.168.1.89.47352: 29210 1/0/0 A 95.143.172.58 (121)
+23:15:06.996928 IP resolver1.opendns.com.domain > 192.168.1.89.47352: 25096 1/0/0 AAAA 2001:1a50:11:0:5f:8f:ac3a:33 (133)
+23:15:07.183054 IP 192.168.1.89.49568 > cygnus.uberspace.de.http: Flags [P.], seq 3699645595:3699645754, ack 22805669, win 229, options [nop,nop,TS val 10971555 ecr 899024509], length 159: HTTP: GET /flag.txt HTTP/1.1
+23:15:07.371399 IP 192.168.1.89.47514 > resolver1.opendns.com.domain: 30226+ A? 65736e2774206d61747465722e0a7b4f66632c2077696e6e696e67206973.2015.ctf.internetwache.org. (105)
+23:15:07.371421 IP 192.168.1.89.47514 > resolver1.opendns.com.domain: 999+ AAAA? 65736e2774206d61747465722e0a7b4f66632c2077696e6e696e67206973.2015.ctf.internetwache.org. (105)
+23:15:07.765050 IP resolver1.opendns.com.domain > 192.168.1.89.47514: 30226 1/0/0 A 95.143.172.58 (121)
+23:15:07.766671 IP resolver1.opendns.com.domain > 192.168.1.89.47514: 999 1/0/0 AAAA 2001:1a50:11:0:5f:8f:ac3a:33 (133)
+23:15:08.176104 IP 192.168.1.89.49570 > cygnus.uberspace.de.http: Flags [P.], seq 616262136:616262295, ack 3237055577, win 229, options [nop,nop,TS val 10971853 ecr 899025380], length 159: HTTP: GET /flag.txt HTTP/1.1
+23:15:08.799155 IP 192.168.1.89.53320 > resolver1.opendns.com.domain: 7061+ A? 20636f6f6c65720a44696420796f752066696e64206f7468657220666c61.2015.ctf.internetwache.org. (105)
+23:15:08.799213 IP 192.168.1.89.53320 > resolver1.opendns.com.domain: 1790+ AAAA? 20636f6f6c65720a44696420796f752066696e64206f7468657220666c61.2015.ctf.internetwache.org. (105)
+23:15:09.249439 IP resolver1.opendns.com.domain > 192.168.1.89.53320: 7061 1/0/0 A 95.143.172.58 (121)
+23:15:09.264068 IP resolver1.opendns.com.domain > 192.168.1.89.53320: 1790 1/0/0 AAAA 2001:1a50:11:0:5f:8f:ac3a:33 (133)
+23:15:09.476469 IP 192.168.1.89.49572 > cygnus.uberspace.de.http: Flags [P.], seq 194192634:194192793, ack 3454201474, win 229, options [nop,nop,TS val 10972243 ecr 899026808], length 159: HTTP: GET /flag.txt HTTP/1.1
+23:15:09.667086 IP 192.168.1.89.44837 > resolver1.opendns.com.domain: 54291+ A? 67733f0a4e6f626f62792066696e6473206f7468657220666c616773210a.2015.ctf.internetwache.org. (105)
+23:15:09.667112 IP 192.168.1.89.44837 > resolver1.opendns.com.domain: 63741+ AAAA? 67733f0a4e6f626f62792066696e6473206f7468657220666c616773210a.2015.ctf.internetwache.org. (105)
+23:15:10.079824 IP resolver1.opendns.com.domain > 192.168.1.89.44837: 54291 1/0/0 A 95.143.172.58 (121)
+23:15:10.081819 IP resolver1.opendns.com.domain > 192.168.1.89.44837: 63741 1/0/0 AAAA 2001:1a50:11:0:5f:8f:ac3a:33 (133)
+23:15:10.349092 IP 192.168.1.89.49576 > cygnus.uberspace.de.http: Flags [P.], seq 3363774982:3363775141, ack 1773167552, win 229, options [nop,nop,TS val 10972504 ecr 899027677], length 159: HTTP: GET /flag.txt HTTP/1.1
+23:15:10.592158 IP 192.168.1.89.56469 > resolver1.opendns.com.domain: 52455+ A? 53757065726d616e206973206d79206865726f2e0a5f4845524f2121215f.2015.ctf.internetwache.org. (105)
+23:15:10.592189 IP 192.168.1.89.56469 > resolver1.opendns.com.domain: 27290+ AAAA? 53757065726d616e206973206d79206865726f2e0a5f4845524f2121215f.2015.ctf.internetwache.org. (105)
+23:15:10.832216 IP resolver1.opendns.com.domain > 192.168.1.89.56469: 52455 1/0/0 A 95.143.172.58 (121)
+23:15:10.834068 IP resolver1.opendns.com.domain > 192.168.1.89.56469: 27290 1/0/0 AAAA 2001:1a50:11:0:5f:8f:ac3a:33 (133)
+23:15:11.014104 IP 192.168.1.89.49578 > cygnus.uberspace.de.http: Flags [P.], seq 933738108:933738267, ack 2308450333, win 229, options [nop,nop,TS val 10972704 ecr 899028345], length 159: HTTP: GET /flag.txt HTTP/1.1
+23:15:11.207072 IP 192.168.1.89.34248 > resolver1.opendns.com.domain: 4757+ A? 0a48656c70206d65206d7920667269656e642c2049276d206c6f73742069.2015.ctf.internetwache.org. (105)
+23:15:11.207117 IP 192.168.1.89.34248 > resolver1.opendns.com.domain: 39427+ AAAA? 0a48656c70206d65206d7920667269656e642c2049276d206c6f73742069.2015.ctf.internetwache.org. (105)
+23:15:11.761829 IP resolver1.opendns.com.domain > 192.168.1.89.34248: 39427 1/0/0 AAAA 2001:1a50:11:0:5f:8f:ac3a:33 (133)
+23:15:11.782032 IP resolver1.opendns.com.domain > 192.168.1.89.34248: 4757 1/0/0 A 95.143.172.58 (121)
+23:15:12.890026 IP 192.168.1.89.49580 > cygnus.uberspace.de.http: Flags [P.], seq 3854217888:3854218047, ack 384273528, win 229, options [nop,nop,TS val 10973267 ecr 899030216], length 159: HTTP: GET /flag.txt HTTP/1.1
+23:15:13.088356 IP 192.168.1.89.42830 > resolver1.opendns.com.domain: 16295+ A? 6e206d79206f776e206d696e642e0a416c776179732c20616c776179732c.2015.ctf.internetwache.org. (105)
+23:15:13.088405 IP 192.168.1.89.42830 > resolver1.opendns.com.domain: 40756+ AAAA? 6e206d79206f776e206d696e642e0a416c776179732c20616c776179732c.2015.ctf.internetwache.org. (105)
+23:15:13.316463 IP resolver1.opendns.com.domain > 192.168.1.89.42830: 16295 1/0/0 A 95.143.172.58 (121)
+23:15:13.326716 IP resolver1.opendns.com.domain > 192.168.1.89.42830: 40756 1/0/0 AAAA 2001:1a50:11:0:5f:8f:ac3a:33 (133)
+23:15:13.512903 IP 192.168.1.89.49582 > cygnus.uberspace.de.http: Flags [P.], seq 768604210:768604369, ack 2436882540, win 229, options [nop,nop,TS val 10973454 ecr 899030844], length 159: HTTP: GET /flag.txt HTTP/1.1
+23:15:13.705494 IP 192.168.1.89.52249 > resolver1.opendns.com.domain: 44330+ A? 20666f72206576657220616c6f6e652e0a437279696e6720756e74696c20.2015.ctf.internetwache.org. (105)
+23:15:13.705526 IP 192.168.1.89.52249 > resolver1.opendns.com.domain: 12063+ AAAA? 20666f72206576657220616c6f6e652e0a437279696e6720756e74696c20.2015.ctf.internetwache.org. (105)
+23:15:13.932545 IP resolver1.opendns.com.domain > 192.168.1.89.52249: 12063 1/0/0 AAAA 2001:1a50:11:0:5f:8f:ac3a:33 (133)
+23:15:13.935014 IP resolver1.opendns.com.domain > 192.168.1.89.52249: 44330 1/0/0 A 95.143.172.58 (121)
+23:15:14.127030 IP 192.168.1.89.49584 > cygnus.uberspace.de.http: Flags [P.], seq 1653560004:1653560163, ack 3285340490, win 229, options [nop,nop,TS val 10973638 ecr 899031458], length 159: HTTP: GET /flag.txt HTTP/1.1
+23:15:14.321296 IP 192.168.1.89.47462 > resolver1.opendns.com.domain: 47138+ A? 49276d206479696e672e0a4b696e6773206e65766572206469652e0a536f.2015.ctf.internetwache.org. (105)
+23:15:14.321353 IP 192.168.1.89.47462 > resolver1.opendns.com.domain: 44836+ AAAA? 49276d206479696e672e0a4b696e6773206e65766572206469652e0a536f.2015.ctf.internetwache.org. (105)
+23:15:14.548967 IP resolver1.opendns.com.domain > 192.168.1.89.47462: 47138 1/0/0 A 95.143.172.58 (121)
+23:15:14.551460 IP resolver1.opendns.com.domain > 192.168.1.89.47462: 44836 1/0/0 AAAA 2001:1a50:11:0:5f:8f:ac3a:33 (133)
+23:15:14.746382 IP 192.168.1.89.49586 > cygnus.uberspace.de.http: Flags [P.], seq 2460598236:2460598395, ack 581137982, win 229, options [nop,nop,TS val 10973824 ecr 899032073], length 159: HTTP: GET /flag.txt HTTP/1.1
+23:15:14.938590 IP 192.168.1.89.38684 > resolver1.opendns.com.domain: 56668+ A? 20646f20492e0a7d210a.2015.ctf.internetwache.org. (65)
+23:15:14.938631 IP 192.168.1.89.38684 > resolver1.opendns.com.domain: 38283+ AAAA? 20646f20492e0a7d210a.2015.ctf.internetwache.org. (65)
+23:15:15.162718 IP resolver1.opendns.com.domain > 192.168.1.89.38684: 56668 1/0/0 A 95.143.172.58 (81)
+23:15:15.172585 IP resolver1.opendns.com.domain > 192.168.1.89.38684: 38283 1/0/0 AAAA 2001:1a50:11:0:5f:8f:ac3a:33 (93)
+23:15:15.360524 IP 192.168.1.89.49588 > cygnus.uberspace.de.http: Flags [P.], seq 1217407716:1217407835, ack 3755288814, win 229, options [nop,nop,TS val 10974008 ecr 899032691], length 119: HTTP: GET /flag.txt HTTP/1.1
