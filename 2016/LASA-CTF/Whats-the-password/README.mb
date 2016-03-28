@@ -1,1 +1,204 @@
+# What's the password
 
+### (Algorithm challenge 1, 80XP, 59 solves)
+
+
+
+>Description: A login system asks for 10 random characters from a password. For example, "What are the 2nd, 6th, 23rd, .... characters?" The characters are always asked in the order that they appear in the password. Here is a list of 250 successful logins for an account. Find the shortest possible password that could fulfill all these logins.
+Note: Flag not in LASACTF{} format
+
+
+>File: logins.txt
+
+This is what the Logins.txt contained:
+
+```
+
+)!P`*Ap7k/ Ju!&+*3Bk{ Ju%@3Bsfm/ u}Bs?pf2qb Q!5+F:|B2E cu5:*3rAfi !P:|Bsf_m/ VQ!`v?7_{m ,c4PFBv?f7 o4+rRf{Gm<
+JP&+|sf2ib 4}@*3Rs7_G oJcQP`D2_G )!4:;*DAs7 :A?fE{m/i< P5+;B?m=^b V!%`3BsEGi VcFvApMGm^ 45%}RD?_k{ QP}@F:B?G=
+,)4+;rRA_= ,JQ&+FE7ki 4%|BvDp2mb VcQ`rR7{m/ 5@:*?{G=i< J5+;RspG=b oc*sfq{Gm/ )u!%`vq_m/ cP%}+r?2Em o!}FBf_k/i
+,JV;DpMqk/ V;*rsMqmi^ )4%+Fp2qm/ oQ`|rBRqEb )!5&@*Rp_= @`*rsqEGmi V!&+BvD?=^ V)%;*rBR?G o%&F;*D?2/ J)u5%&2=i^
+cuFrBpq_=i Q)%&F:|RAG ,Q)4@*?qk< VuP&`r27_^ Ju@:3DspG< o+BR?pf_km ,Qu4&F:R?^ ,oJ};s7k=< VQ5|pfM2k< Q%|3AMq7i^
+Q)4%+;|r/^ VP%};vM_i< VuP+f2k{<b ,JuP&@`vEk JVc4DfE_m^ )u+|Bvsf7k ,%F`Mq7mi^ o5`|*3rRq7 %@RDsf{/=< ,5:|*rR?M2
+Q5F*3BDsqk o)uP`*BMmb cP|3MEkm/= u!5B?fME7k oJV%F`k/ib V!;3RpqGi< J5pfM2qE=i oJcQ5%+A?^ o)4F;|vEGm JQ4+|BDpqb
+ou}`3r?fq< cQ4+;|rRm/ J)%@;qE{/= oc%;|A?pm^ u:;`*B7m<^ Vu@*AfMq<b J@;`?E_k<b c)&:;rEk/^ )P:;3DsE_/ Qu*D2qk{=<
+ou%3BAp2{b ,Qu4P*r2_b ,J5&FRA2_b )P+|BApMq< cQ!`*BDkGb ,o5+|Dpk/b u5;`|Rv2E= Vc4&BM27{m Vc)!%Df{i^ Q%;|*?7G=i
+oJcQ!;rB?< Jc!;`rBp2^ u4}`?q7_Gi V!&@Dpq7{G ,`*BDApf_k o*rvDpf{G^ o:|*rBRpfE ou}|3BRAk^ oV!RvpE7{i uP&@FME{i^
+o@`p7k{mib ,P+rvMq/^b ,u@F;vsq_i }+*3rDsqmi )P%F`*327m cQ)@+|*B{^ u4&}@+?E{< VQ+;3rD2Gm V)45F:rE{m JcQu:v?fMG
+,J)uP:;D?{ Jcu!4P}3p7 ,o}:;Aspfm ,cQ)P&+;pq Jcu;`|vk/^ VQuF:3p2<b Q)!&:?fkmb Vc4*BRA7_G c!4+rvs?E_ ,P}FBR?pm<
+,J:;RDs_m/ P%@rvApfM^ ,o&@:3?E{b ,o5@+:`Bqm Q)u!@RAm/b oQ5&@DpM2{ JV+;*fq/ib c)F|Rspk{< V!4&3f_m/b ou%+;3D?=b
+:Dp2E_{=^b cQ!P:DAsq/ c};`RsMq^b @+F*rApq_{ P%@+*3vDA{ oc53rpq_m^ !4+:*rv7=i c!}+*vME_b ,@+:;spqE_ V3BAs?p_km
+,oc5%F`rA2 VQ)u!}@|_b )u4|RA2_i< QP%&F|*fMi oV&;|BAf2E 4@;DA?qEG= ocu53vsM_/ JVc!4&s?/^ P@;*3rvk{< P}+`sfG=i^
+o)45DAs2Gm Vc4BAs7k{G J)%&|rvfG= Ju5&};skmi ,5`*p_G/=b oVcQ!}@`pq ,)!5:*B2{b )4P;`|f_ki oJV)!Rvq=i ,oV4P5DqEi
+JQ!4rBsq7k !4@F3rp2{/ ,oQ:|BRA?b ,Q45*3r?MG ,J4F|3v_{m };rDsk{<^b ,cPvpf2_{m oJVc)u@F`v ,QPrBv?Em^ )P&};RMqGm
+,V@+:`s?/^ c!P`|M27{^ Q!4}*pM2Em ,oV!5;MEi^ P+rBRvAq_G VuP;*BfM2_ !5+:rAq{m= oJc):|BsM/ }+F;|*sf2/ )!@|Bvsp7i
+,VQ}F:Bp7{ P5+:`|rAk= +;`2qk{i<b J)!&}@|*sb V)Rf27m/=i JVQ)@B_kmb J)&*3q7_i^ Ju@+`3DsME oJPF*RA_m/ JQ)u4@;?ki
+Qu+F3rvf/^ ,o5@FrRsq{ !@|*3BDk=i JuP:sE7kGi ocP*BvA_/^ F:RvpM2q_m cu4@+*Rpf{ QF`3AM2/ib c!&}|3DMG^ &RA?27k{/<
+o4+;vAsf=< ,P:rDsq_=^ ,o@:*vMk=^ ,)%@+3s?27 oc}3Rpfkm^ u!4F:|Df2k cP%&}BAp/< ,Q!&+Rs{mb c`|RM7_G=i c!4;rsM2{<
+u5;`3Rfq7b ,c)53vM=^b J%@F:rBp_k !@FBsp7/=^ ,J!}+;`sM_ ,@F`2Ek<^b J4:|3B?q7m )PBR2E7G^b Jc@F`|M7km uP%};DsM2/
+cQ5BA_G=<^ o&@F:;|p7b P5+*Rv2q7G Q45%@|pE_i oc)v2EkGi< o!3BvApf/< o}`Rv?fqk/ 5&@+:rpM7G uF:|s7_G=< oJcQur?m<b
+,oP:BAp7/= JVcu5kmi^b oJc)uP:M{b ouP5327_Gb ,!&;|*Dqi^ cQ5Bvpf2E{ P5@|3rDE7G !4P+F`RpMq Ju!&FA2q<^ +F`RvDAM=<
+u4vpqGm=i< o+|A?qE7km J!%`|Mm/i^ :|*rs2{m/b V@:*q_kGm= oV5rsfM_m= cu@+|AMq7^ oVc4@|rBEi o4P}|RvA{i cu4*r2/<^b
+
+```
+
+Firstly I want to know how many different characters we are dealing with. Then I split each password on each of the characters and check if this character is still present in any of the split strings.
+
+```
+f = open('Logins.txt', 'r')
+loginList = f.read().strip().split('\n')
+
+def splitLogin(char, login):
+    before = []
+    after = []
+    beforeAfter = []
+    for i in login:
+        if char in i:
+            temp = i.split(char)
+            before.append(temp[0])
+            after.append(temp[1])
+
+    beforeAfter.append(before)
+    beforeAfter.append(after)
+    return beforeAfter
+
+def checkDuplicate(char, beforeAfter):
+    beforeChars = set(''.join(beforeAfter[0]))
+    afterChars = set(''.join(beforeAfter[1]))
+    for i in beforeChars:
+        if i in afterChars:
+            print(i, 'is before and after', char)
+            return 1
+    return 0
+
+def main(loginList):
+    chars = set(''.join(loginList))
+    print('There are', len(chars), 'unique characters in the password')
+    print('Checking if any of the chars seems to be duplicated...')
+    n = 0
+    for i in chars:
+        ba = splitLogin(i, loginList)
+        duplicates = checkDuplicate(i, ba)
+        if duplicates == 1:
+            n += 1
+
+    if n == 0:
+        print('There are no duplicates, so the password is', len(chars), 'characters long')
+# What's the password
+
+### (Algorithm challenge 1, 80XP, 59 solves)
+
+
+
+>Description: A login system asks for 10 random characters from a password. For example, "What are the 2nd, 6th, 23rd, .... characters?" The characters are always asked in the order that they appear in the password. Here is a list of 250 successful logins for an account. Find the shortest possible password that could fulfill all these logins.
+Note: Flag not in LASACTF{} format
+
+
+>File: logins.txt
+
+This is what the Logins.txt contained:
+
+```
+
+)!P`*Ap7k/ Ju!&+*3Bk{ Ju%@3Bsfm/ u}Bs?pf2qb Q!5+F:|B2E cu5:*3rAfi !P:|Bsf_m/ VQ!`v?7_{m ,c4PFBv?f7 o4+rRf{Gm<
+JP&+|sf2ib 4}@*3Rs7_G oJcQP`D2_G )!4:;*DAs7 :A?fE{m/i< P5+;B?m=^b V!%`3BsEGi VcFvApMGm^ 45%}RD?_k{ QP}@F:B?G=
+,)4+;rRA_= ,JQ&+FE7ki 4%|BvDp2mb VcQ`rR7{m/ 5@:*?{G=i< J5+;RspG=b oc*sfq{Gm/ )u!%`vq_m/ cP%}+r?2Em o!}FBf_k/i
+,JV;DpMqk/ V;*rsMqmi^ )4%+Fp2qm/ oQ`|rBRqEb )!5&@*Rp_= @`*rsqEGmi V!&+BvD?=^ V)%;*rBR?G o%&F;*D?2/ J)u5%&2=i^
+cuFrBpq_=i Q)%&F:|RAG ,Q)4@*?qk< VuP&`r27_^ Ju@:3DspG< o+BR?pf_km ,Qu4&F:R?^ ,oJ};s7k=< VQ5|pfM2k< Q%|3AMq7i^
+Q)4%+;|r/^ VP%};vM_i< VuP+f2k{<b ,JuP&@`vEk JVc4DfE_m^ )u+|Bvsf7k ,%F`Mq7mi^ o5`|*3rRq7 %@RDsf{/=< ,5:|*rR?M2
+Q5F*3BDsqk o)uP`*BMmb cP|3MEkm/= u!5B?fME7k oJV%F`k/ib V!;3RpqGi< J5pfM2qE=i oJcQ5%+A?^ o)4F;|vEGm JQ4+|BDpqb
+ou}`3r?fq< cQ4+;|rRm/ J)%@;qE{/= oc%;|A?pm^ u:;`*B7m<^ Vu@*AfMq<b J@;`?E_k<b c)&:;rEk/^ )P:;3DsE_/ Qu*D2qk{=<
+ou%3BAp2{b ,Qu4P*r2_b ,J5&FRA2_b )P+|BApMq< cQ!`*BDkGb ,o5+|Dpk/b u5;`|Rv2E= Vc4&BM27{m Vc)!%Df{i^ Q%;|*?7G=i
+oJcQ!;rB?< Jc!;`rBp2^ u4}`?q7_Gi V!&@Dpq7{G ,`*BDApf_k o*rvDpf{G^ o:|*rBRpfE ou}|3BRAk^ oV!RvpE7{i uP&@FME{i^
+o@`p7k{mib ,P+rvMq/^b ,u@F;vsq_i }+*3rDsqmi )P%F`*327m cQ)@+|*B{^ u4&}@+?E{< VQ+;3rD2Gm V)45F:rE{m JcQu:v?fMG
+,J)uP:;D?{ Jcu!4P}3p7 ,o}:;Aspfm ,cQ)P&+;pq Jcu;`|vk/^ VQuF:3p2<b Q)!&:?fkmb Vc4*BRA7_G c!4+rvs?E_ ,P}FBR?pm<
+,J:;RDs_m/ P%@rvApfM^ ,o&@:3?E{b ,o5@+:`Bqm Q)u!@RAm/b oQ5&@DpM2{ JV+;*fq/ib c)F|Rspk{< V!4&3f_m/b ou%+;3D?=b
+:Dp2E_{=^b cQ!P:DAsq/ c};`RsMq^b @+F*rApq_{ P%@+*3vDA{ oc53rpq_m^ !4+:*rv7=i c!}+*vME_b ,@+:;spqE_ V3BAs?p_km
+,oc5%F`rA2 VQ)u!}@|_b )u4|RA2_i< QP%&F|*fMi oV&;|BAf2E 4@;DA?qEG= ocu53vsM_/ JVc!4&s?/^ P@;*3rvk{< P}+`sfG=i^
+o)45DAs2Gm Vc4BAs7k{G J)%&|rvfG= Ju5&};skmi ,5`*p_G/=b oVcQ!}@`pq ,)!5:*B2{b )4P;`|f_ki oJV)!Rvq=i ,oV4P5DqEi
+JQ!4rBsq7k !4@F3rp2{/ ,oQ:|BRA?b ,Q45*3r?MG ,J4F|3v_{m };rDsk{<^b ,cPvpf2_{m oJVc)u@F`v ,QPrBv?Em^ )P&};RMqGm
+,V@+:`s?/^ c!P`|M27{^ Q!4}*pM2Em ,oV!5;MEi^ P+rBRvAq_G VuP;*BfM2_ !5+:rAq{m= oJc):|BsM/ }+F;|*sf2/ )!@|Bvsp7i
+,VQ}F:Bp7{ P5+:`|rAk= +;`2qk{i<b J)!&}@|*sb V)Rf27m/=i JVQ)@B_kmb J)&*3q7_i^ Ju@+`3DsME oJPF*RA_m/ JQ)u4@;?ki
+Qu+F3rvf/^ ,o5@FrRsq{ !@|*3BDk=i JuP:sE7kGi ocP*BvA_/^ F:RvpM2q_m cu4@+*Rpf{ QF`3AM2/ib c!&}|3DMG^ &RA?27k{/<
+o4+;vAsf=< ,P:rDsq_=^ ,o@:*vMk=^ ,)%@+3s?27 oc}3Rpfkm^ u!4F:|Df2k cP%&}BAp/< ,Q!&+Rs{mb c`|RM7_G=i c!4;rsM2{<
+u5;`3Rfq7b ,c)53vM=^b J%@F:rBp_k !@FBsp7/=^ ,J!}+;`sM_ ,@F`2Ek<^b J4:|3B?q7m )PBR2E7G^b Jc@F`|M7km uP%};DsM2/
+cQ5BA_G=<^ o&@F:;|p7b P5+*Rv2q7G Q45%@|pE_i oc)v2EkGi< o!3BvApf/< o}`Rv?fqk/ 5&@+:rpM7G uF:|s7_G=< oJcQur?m<b
+,oP:BAp7/= JVcu5kmi^b oJc)uP:M{b ouP5327_Gb ,!&;|*Dqi^ cQ5Bvpf2E{ P5@|3rDE7G !4P+F`RpMq Ju!&FA2q<^ +F`RvDAM=<
+u4vpqGm=i< o+|A?qE7km J!%`|Mm/i^ :|*rs2{m/b V@:*q_kGm= oV5rsfM_m= cu@+|AMq7^ oVc4@|rBEi o4P}|RvA{i cu4*r2/<^b
+
+```
+
+Firstly I want to know how many different characters we are dealing with. Then I split each password on each of the characters and check if this character is still present in any of the split strings.
+
+```
+f = open('Logins.txt', 'r')
+logins = f.read().strip()
+loginList = logins.split('\n')
+
+def splitLogin(char, login):
+    before = []
+    after = []
+    beforeAfter = []
+    for i in login:
+        if char in i:
+            temp = i.split(char)
+            before.append(temp[0])
+            after.append(temp[1])
+
+    beforeAfter.append(before)
+    beforeAfter.append(after)
+    return beforeAfter
+
+def checkDuplicate(char, beforeAfter):
+    beforeChars = set(''.join(beforeAfter[0]))
+    afterChars = set(''.join(beforeAfter[1]))
+    for i in beforeChars:
+        if i in afterChars:
+            print(i, 'is before and after', char)
+            return 1
+    return 0
+
+def main(loginList):
+    chars = set(''.join(loginList))
+    print('There are', len(chars), 'unique characters in the password')
+    print('Checking if any of the chars seems to be duplicated...')
+    n = 0
+    for i in chars:
+        ba = splitLogin(i, loginList)
+        duplicates = checkDuplicate(i, ba)
+        if duplicates == 1:
+            n += 1
+
+    if n == 0:
+        print('There are no duplicates, so the password is', len(chars), 'characters long')
+
+main()
+```
+I get this output:
+>There are 50 unique characters in the password
+
+>Checking if any of the chars seems to be duplicated...
+
+>There are no duplicates, so the password is 50 characters long
+
+This is good. There are no passwords with two of the same character and that means that it's going to be pretty easy to find the string we are looking for.
+
+All we have to do is to split each password by each unique character, like I did earlier. By doing this, we can check what character that does not have any other characters to the left of it.
+```
+def findSequence(sequence, login):
+    for i in set(''.join(login)):
+        ba = splitLogin(i, login)
+        if ''.join(ba[0]) == '' and ''.join(ba[1]) == '':
+            sequence += i
+            return sequence
+        elif ''.join(ba[0]) == '' and ''.join(ba[1]) != '':
+            sequence += i
+            tempLogin = ' '.join(login)
+            tempLogin = tempLogin.replace(i, '')
+            newLogin = tempLogin.split()
+            return findSequence(sequence, newLogin)
+```
+We append the leftmost character to our result, remove it from all the passwords, rinse and repeat. When we find the last character of our answer, the resulting splits will be empty strings and we got our sequence:
+```
+,oJVcQ)u!4P5%&}@+F:;`|*3rBRvDAs?pfM2qE7_k{Gm/=i<^b
+```
