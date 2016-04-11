@@ -6,7 +6,8 @@
 
 Viewing the source code of this challenge, we appear to have some awkward use of extract...
 
-`<?php if ($_SERVER["REQUEST_METHOD"] == "POST") { ?>
+```
+<?php if ($_SERVER["REQUEST_METHOD"] == "POST") { ?>
                         <?php
                         extract($_POST);
                         if ($pass == $thepassword_123) { ?>
@@ -14,7 +15,8 @@ Viewing the source code of this challenge, we appear to have some awkward use of
                                 <code><?php echo $theflag; ?></code>
                             </div>
                         <?php } ?>
-                    <?php } ?>`
+                    <?php } ?>
+```
 
 
 The exploit:
