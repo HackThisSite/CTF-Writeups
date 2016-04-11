@@ -5,7 +5,7 @@
 
 The first thing I did was play around with the forms...
 
-![forms](https://github.com/HackThisCode/CTF-Writeups/tree/master/2016/LASA-CTF/Coffee-Maker/coffee.png "Forms")
+![forms](https://raw.githubusercontent.com/HackThisCode/CTF-Writeups/master/2016/LASA-CTF/Coffee-Maker/coffee.png "Forms")
 
 As you can see, we have some coffee's we can make on the fly. However, we have some that require a 15 character password.
 This means that brute-force isn't an option.
