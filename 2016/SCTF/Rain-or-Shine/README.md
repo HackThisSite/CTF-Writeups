@@ -24,7 +24,7 @@ This tells us that this file is a tiff file, so "strings" business  saves us som
 
 We use this [list of file signatures](https://en.wikipedia.org/wiki/List_of_file_signatures), in order to determine the magic header bytes for tiff files. We assume the data is stored in little endian format, so the bytes we are looking for are: **49 49 2A 00**.
 
-####Are you the bytes we are looking for? (waving hand)
+####Are you the bytes we are looking for?
 We fire up our favorite hex editor **bless** and do a search for the bytes **49 49 2A 00**, and sure enough they are present. And sure enough we find it at offset **0058fd00**!
 
 We copy the data from and including this offset, untill the end of the file and paste it into a new file called **embedded.tiff**
