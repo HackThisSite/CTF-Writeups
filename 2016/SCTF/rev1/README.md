@@ -116,10 +116,40 @@ We can see we effectively append a 0 byte to the end of our first variable, tell
 
 Our string will thus be: **68 34 78 30 72 21 21 21** translated to ascii this will be **h4x0r!!!**
 
-We could stop here and call it a day and try to submit the flag as **sctf{h4x0r!!!}** but that won't make you or I better at assembler.
+We could stop here and call it a day and try to submit the flag as **sctf{h4x0r!!!}** but that won't make you or I better at assembly.
 
-Lets move on and look at main+33 and main+38, here we call the c function puts, which takes an address of 0x400744, which is placed in %edi, common c calling convensions state that the first parameter to a function should be available in edi/rdi for 32/64 bit values.
+Lets move on and look at main+33 and main+38, here we call the c function puts, which takes an address of 0x400744, which is placed in %edi, common c calling convensions state that the first parameter to a function should be available in edi/rdi for 32/64 bit addressing.
 
 Lets examine what string is located at that address, we know puts need an address to a 0 terminated string, which it in turn will print out. (a char*). To examine a string at a known address issue the following command:
 
 `(gdb) print (char*) 0x400744`
+
+This prints out the string at address 0x400744:
+
+`$2 = 0x400744 "What is the magic password?"`
+
+At main+60 we call the c function scanf which takes 2 or more parameters, the first parameter is a format string (address to it), this is already loaded into the register %edi,
+we can print it as before with: `print (char*) 0x400760` and you see it being **%d**, this means it will scan the input for 1 integer and put it into the address given by the register %rsi.
+
+Cool, now we know the program assumes an integer input after it asks about the magic password. The integer we enter will end up in the local variable at -0x4(%rbp).
+
+At main+68 we compare this integer value with 0x5b74 which translates to **23412**.
+If the input is 23412, we see in main+97 that we will get a print out using printf, which takes a format string located at 0x400763, try to print it out like earlier!
+
+`1 = 0x400763 "Correct! Your flag is: %s"`
+
+So what value will %s be substituted with?? Well we already found out back in main+15 and main+25. This value entered into the local variable -0x10(%rbp) and that value was:
+0x2121217230783468, translating to **h4x0r!!!** with a trailing \0 to denote end of string.
+The address of the local variable -0x10(%rbp) gets loaded into %rsi which completes our 2 arguments to printf:
+
+`printf(0x400763,-0x10(%rbp))`
+
+We basically solved the challenge in the "hardest" way as we could have finished it by searching the binary for strings, issuing the command `string ./rev` and have noticed the string "!!!r0x4h". Of course you have to know that sometimes strings gets stored in reverse, if litteral values are used in assignments such as : `movabs $0x2121217230783468,%rax`.
+
+##The Solution
+
+Now that we know the magic password of **23412** we can run the program, from the shell and enter the password.
+
+`Correct! Your flag is: h4x0r!!!`
+
+Submit the flag as: **sctf{h4x0r!!!}**
