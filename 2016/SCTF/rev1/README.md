@@ -142,7 +142,7 @@ So what value will %s be substituted with?? Well we already found out back in ma
 0x2121217230783468, translating to **h4x0r!!!** with a trailing \0 to denote end of string.
 The address of the local variable -0x10(%rbp) gets loaded into %rsi which completes our 2 arguments to printf:
 
-```printf(0x400763,-0x10(%rbp))```
+`printf(0x400763,-0x10(%rbp))`
 
 We basically solved the challenge in the "hardest" way as we could have finished it by searching the binary for strings, issuing the command `string ./rev` and have noticed the string "!!!r0x4h". Of course you have to know that sometimes strings gets stored in reverse, if litteral values are used in assignments such as : `movabs $0x2121217230783468,%rax`.
 
@@ -152,4 +152,4 @@ Now that we know the magic password of **23412** we can run the program, from th
 
 `Correct! Your flag is: h4x0r!!!`
 
-Submit the flag as: sctf{h4x0r!!!}
+Submit the flag as: **sctf{h4x0r!!!}**
