@@ -1,6 +1,6 @@
-   ## Mathy Tongue
+## Mathy Tongue
 * Cryptography
-* Given {{url_for(\"problem2.txt\", display=\"this\")}} information, what is zokalal + namekalal?
+* Given (Problem Text) information, what is zokalal + namekalal?
 * All the math symbols have the same functionality, so 2+3=5 and 2*3=6. Good luck!
 * 170 points
 
