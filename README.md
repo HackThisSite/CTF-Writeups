@@ -4,7 +4,21 @@
 
 ## CTFs We Participated In
 
-**ALL OF THEM.**
+
+### 2016
+
+* Boston Key Party
+* LASA CTF
+* Nuit du Hack
+* Neo CTF
+* Internet Wache CTF
+* 420blaze
+* SCTF
+
+### 2015
+
+* Easy CTF
+
 
 ## Licences
 
