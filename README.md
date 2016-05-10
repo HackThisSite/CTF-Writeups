@@ -8,16 +8,16 @@
 ### 2016
 
 * Boston Key Party
-* LASA CTF
+* [LASA CTF](./2016/LASA-CTF)
 * Nuit du Hack
 * Neo CTF
-* Internet Wache CTF
+* [Internet Wache CTF](./2016/InternetWache-CTF)
 * 420blaze
-* SCTF
+* [SCTF](./2016/SCTF)
 
 ### 2015
 
-* Easy CTF
+* [Easy CTF](./2015/EasyCTF2015)
 
 
 ## Licences
