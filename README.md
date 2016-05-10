@@ -19,7 +19,7 @@
 
 ### 2015
 
-* [Easy CTF](./2015/EasyCTF2015)
+* [Easy CTF](http://easyctf.com/)
   * [Repo of challenges](https://writeups.easyctf.com/)
 
 ## Licences
