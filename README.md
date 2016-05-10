@@ -8,12 +8,13 @@
 ### 2016
 
 * Boston Key Party
-* [LASA CTF](./2016/LASA-CTF)
+* [Our Writeups LASA CTF](./2016/LASA-CTF)
+  * [Repo of challenges](https://github.com/LASACTF/LASACTF-Problems/tree/master/Problems)
 * Nuit du Hack
 * Neo CTF
-* [Internet Wache CTF](./2016/InternetWache-CTF)
+* [Our Writeups Internet Wache CTF](./2016/InternetWache-CTF)
 * 420blaze
-* [SCTF](./2016/SCTF)
+* [Our Writeups SCTF](./2016/SCTF)
 
 ### 2015
 
