@@ -15,11 +15,12 @@
 * [Our Writeups Internet Wache CTF](./2016/InternetWache-CTF)
 * 420blaze
 * [Our Writeups SCTF](./2016/SCTF)
+  * [Repo of challenges (incomplete)](https://github.com/failedxyz/sctf-2016q1)
 
 ### 2015
 
 * [Easy CTF](./2015/EasyCTF2015)
-
+  * [Repo of challenges](https://writeups.easyctf.com/)
 
 ## Licences
 
