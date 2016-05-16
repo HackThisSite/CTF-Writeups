@@ -7,6 +7,7 @@
 
 ### 2016
 
+* [HSCTF](https://compete.hsctf.com/)
 * Boston Key Party
 * [LASA CTF](https://lasactf.com/)
   * [Repo of Challenges](https://github.com/LASACTF/LASACTF-Problems/tree/master/Problems)
