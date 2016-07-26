@@ -1,6 +1,6 @@
 # Caesar Salad
->>Most definitely the best salad around. Can you decrypt this for us?
-xyzqc{t3_qelrdeq_t3_k33a3a_lk3_lc_qe3p3}
+>Most definitely the best salad around. Can you decrypt this for us?
+`xyzqc{t3_qelrdeq_t3_k33a3a_lk3_lc_qe3p3}`
 
 Essentially a staple in many of the easier CTF events cryptography category, this challenge is based on the caesar cipher.
 The caesar cipher is essentially a rot-n cipher (rotating each alpha character n times)
@@ -22,7 +22,7 @@ cipher_list = (97..122).map(&:chr)
 if !ARGV[0]
   usage
 else
-  chars = ARGV[0].split('')
+  chars = ARGV[0].split('').map(&:downcase)
   for i in (1..26)
     chars.map! { |c|
       if cipher_list.index(c) == 25
@@ -48,7 +48,9 @@ Output:
 
 `ROT 3: abctf{w3_thought_w3_n33d3d_on3_of_th3s3}   |   ABCTF{W3_THOUGHT_W3_N33D3D_ON3_OF_TH3S3}`
 
-The flag should be lowercase, so the first result is our flag:
+As we can see, the rotation of the characters is 3, so this was rot-3 encryption.
+
+The flag should be lowercase, as it was given in lowercase; so the first result is our flag:
 
 `abctf{w3_thought_w3_n33d3d_on3_of_th3s3}`
 
