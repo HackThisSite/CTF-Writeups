@@ -5,5 +5,8 @@ script:
         - bash validate.sh
 
 notifications:
-          irc: "irc.hackthissite.org#ctf"
-
+  irc:
+    channels:
+      - "irc.hackthissite.org#ctf"
+    use_notice: true
+    skip_join: true
