@@ -1,0 +1,9 @@
+---
+language: bash
+
+script:
+        - bash validate.sh
+
+notifications:
+          irc: "irc.hackthissite.org#ctf"
+
