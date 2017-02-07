@@ -25,6 +25,12 @@
 * [Easy CTF](http://easyctf.com/)
   * [Repo of challenges](https://writeups.easyctf.com/)
 
+## Build Status
+
+We use Travis CI to ensure write-ups follow consistency standards.
+
+Last build status: [![Build Status](https://travis-ci.org/HackThisCode/CTF-Writeups.svg?branch=master)](https://travis-ci.org/HackThisCode/CTF-Writeups)
+
 ## Licences
 
 We use a combination of the [Beerware](https://tldrlegal.com/license/beerware-license), [Unlicense](http://unlicense.org), and [WTF](http://www.wtfpl.net/txt/copying) licenses. Which license applies to what file, we'll let you figure out. ;)
