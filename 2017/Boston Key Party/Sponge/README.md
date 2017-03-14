@@ -66,4 +66,4 @@ I had already seen gsilvis's code for solving Sponge, and since I couldn't do it
 
 I hope this helped! The meet in the middle attack is incredibly useful, as it reduced the computational complexity from 2^48 to 2^24 !
 
-If you just curl the URL with the collision in hex, the site returns the flag: FLAG{MITM 3: This Time It's Personal!}
+If you just curl the URL with the collision strings in hex, the site returns the flag: FLAG{MITM 3: This Time It's Personal!}

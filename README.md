@@ -6,7 +6,7 @@
 
 ### 2017
 * [AlexCTF](https://ctf.oddcoder.com/)
-* Boston Key Party
+* [Boston Key Party](http://bostonkey.party/)
 
 ### 2016
 * [ABCTF](http://abctf.xyz/)
