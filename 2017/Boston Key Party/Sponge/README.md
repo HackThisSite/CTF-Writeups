@@ -65,3 +65,5 @@ The mathematics of the Birthday Attack tells us that since we are looking for a 
 I had already seen gsilvis's code for solving Sponge, and since I couldn't do it any better myself, I just marginally tweaked it before putting it in here. (I replaced the block generation with struct, added a few comments and made it less general-case) gsilvis gets all the credit for this! The modified file mod_gsilvis_sponge_solver. You can see gsilvis' original solver at: https://gist.github.com/gsilvis/64bbb435d3f90a6f208cceaddeaf1a95
 
 I hope this helped! The meet in the middle attack is incredibly useful, as it reduced the computational complexity from 2^48 to 2^24 !
+
+If you just curl the URL with the collision strings in hex, the site returns the flag: FLAG{MITM 3: This Time It's Personal!}
