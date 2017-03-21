@@ -2,16 +2,19 @@ RSA 1 - RSA 3
 ======
 ##### RSA 1
 * **50 points **
+* **Category: Cryptography**
 * **Problem statement:** _I found somebody's notes on their private RSA! Help me crack this._
 * **Problem hint:** _Go google RSA if you're stuck._
 
 ##### RSA 2
 * **80 points **
+* **Category: Cryptography**
 * **Problem statement:** _Some more RSA! This time, there's no P and Q..._
 * **Problem hint:** _It's like RSA 1 but harder. Have fun!_
 
 ##### RSA 3
 * **135 points **
+* **Category: Cryptography**
 * **Problem statement:** _We came across another message that follows the same cryptographic schema as those other RSA messages. Take a look and see if you can crack it._
 * **Problem hint:** _You might want to read up on how RSA works._
 

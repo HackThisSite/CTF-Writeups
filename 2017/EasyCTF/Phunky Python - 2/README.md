@@ -1,6 +1,7 @@
 Phunky Python 2
 ======
 * **115 points **
+* **Category: Reverse Engineering**
 * **Problem statement:** _We stumbled across another phunky Python file. Can you find the redacted value of jkx that makes this program print True?_
 * **Problem hint:** _No hint_
 
