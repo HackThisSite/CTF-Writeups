@@ -74,7 +74,7 @@ q = n // p
 ```
 Now raise the message to d, and we get our flag!
 
-My solution is premiumRSA.py, the method halfdPartialKeyRecoveryAttack
+My code is in premiumRSA.py, the method halfdPartialKeyRecoveryAttack
 comes from my RSA Solver, https://github.com/ValarDragon/CTF-Crypto/blob/master/RSA/RSATool.py
 
 ``` bash
