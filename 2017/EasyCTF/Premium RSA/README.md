@@ -2,8 +2,8 @@ Premium RSA
 ======
 * **350 points **
 * **Category: Cryptography**
-* **Problem statement:** _Something to the extent of "After doing so much RSA, I finally messed up"_
-* **Hint:** _Something to the extent of "Think about why this can't decrypt"_
+* **Problem statement:** _My RSA is the greatest. It's so strong, in fact, that I'll even give you d!_
+* **Hint:** _You thought it'd be that simple?_
 
 This was a terrific challenge about RSA Partial Key Recovery! (Something I didn't even know existed before) Thankfully we were given over half of the private key. If we were given a quarter of the key, we would have to implement the Coppersmith attack, in addition to this.
 **Due to a lack of Latex, if notation is non-standard mathematics notation, it is Python notation**
