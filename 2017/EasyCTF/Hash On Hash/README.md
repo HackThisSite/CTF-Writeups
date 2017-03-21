@@ -6,12 +6,12 @@ Hash On Hash
 * **Hint:** _Thankfully you can solve this without even using a website_
 
 The file hexstrings is a file with many lines of 32 chars of hex.
-I ignored the hint, and put the first few into [CrackStation](https://crackstation.net/)
+I ignored the hint, and put the first few into the online hash cracker [CrackStation](https://crackstation.net/)
 
 From that you could see that they were all MD5 hashes of 1 letter!
 Then it was easy,
-I just wrote a script to make all the 256 MD5's,
-and then see for every line, find of those MD5's does it match up with, and then print the corresponding chars.
+I just wrote a script to make all the 256 1 character MD5's.
+Then iterate line by line and replace the lines with character that md5's to it. Concatenate the characters, and print the corresponding characters.
 
 ```
 $ python3 hexstringsSolver.py
@@ -23,4 +23,4 @@ The security of the MD5 has been severely compromised, with its weaknesses havin
 easyctf{1_h0p3_y0u_d1dn7_d0_7h47_by_h4nd}
 ```
 
-I learned a few things about MD5, and got our flag!
+We learn a few facts about MD5 and get our flag!
