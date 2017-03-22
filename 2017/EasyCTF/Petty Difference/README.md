@@ -1,6 +1,6 @@
 Petty Difference
 ======
-* **75 points **
+* **75 points**
 * **Category: Forensics**
 * **Problem statement:** _I found two files in a secret room. They look like jumbled letters with no patterns. I mean look at it! file1 is identical to file2, right?_
 * **Hint:** _No hint_

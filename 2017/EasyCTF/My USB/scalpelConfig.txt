@@ -1,0 +1,7 @@
+ 	jpg	y	200000000	\xff\xd8\xff\xe0\x00\x10	\xff\xd9
+       jpg     y       200000000       \xff\xd8\xff\xe1                \xff\xd9
+
+  	png	y	20000000	\x50\x4e\x47?	\xff\xfc\xfd\xfe
+
+	zip	y	10000000	PK\x03\x04	\x3c\xac
+       rar     y       10000000        Rar!
