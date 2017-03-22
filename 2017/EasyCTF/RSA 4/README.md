@@ -1,6 +1,6 @@
 RSA 4
 ======
-* **200 points\* **
+* **200 points\***
 * **Category: Cryptography**
 * **Problem statement:** _Something to the extent of "After doing so much RSA, I finally messed up"_
 * **Hint:** _Something to the extent of "Think about why this can't decrypt"_

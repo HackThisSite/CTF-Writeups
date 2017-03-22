@@ -1,6 +1,6 @@
 Decode me
 ======
-* **100 points **
+* **100 points**
 * **Category: Cryptography**
 * **Problem statement:** _Someone I met today told me that they had a perfect encryption method. To prove that there is no such thing, I want you to decrypt this encrypted flag he gave me._
 * **Hint:** _Simple decoding :)_

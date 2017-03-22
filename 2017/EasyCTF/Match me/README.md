@@ -1,6 +1,6 @@
 Match Me
 ======
-* **300 points **
+* **300 points**
 * **Category: Programming**
 * **Hint** This is a fairly well-known graph problem.
 I would guess there is some sort of internet source on it.
@@ -20,7 +20,7 @@ However, because there are quite a bit of them, please submit your solution as t
 
 MD5 hash of ``(male_1,female_1)(male_2,female_2)...(male_n,female_n)``, where the pairings are sorted alphabetically by male names. For example, ``(Bob,Susie)(Jim,Carol)(Tom,Emma)`` would be submitted as `b0d75104ce4b3a7d892f745fd515fea4`.
 
-Here are the lists of preferences:male preferences, female preferences.
+Here are the lists of preferences:[male preferences](male), [female preferences](female).
 
 ----------------------------
 
@@ -48,7 +48,7 @@ I wasn't sure if some of these combinations would be unstable in different combo
 I currently don't know if in theory it is possible to have an input with less stable configurations than what this code will detect.
 
 Compare the results, and keep only the results that are the same.
-Format the according string, and md5 it! Thats your flag!
+Format the according string, and MD5 it! Thats your flag!
 
 Pairs:
 ```

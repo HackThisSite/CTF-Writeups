@@ -1,6 +1,6 @@
 Paillier Service
 ======
-* **400 points **
+* **400 points**
 * **Category: Cryptography**
 * **Problem statement:** _My friend made some sort of encryption service using the Paillier cryptosystem. Can you get him to encrypt the string_ `easyctf{3ncrypt_m3!}` _for me? Your flag will be a base 10 integer. Access his encryption service at paillier.tcp.easyctf.com 8570._
 * **Problem hint:** [https://en.wikipedia.org/wiki/Paillier_cryptosystem]
