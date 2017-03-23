@@ -5,5 +5,5 @@
 
 
 ## HTS Scoreboard Results:
-
-*TBA
+### 25th/1930 place
+https://www.easyctf.com/scoreboard
