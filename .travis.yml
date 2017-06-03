@@ -2,7 +2,7 @@
 language: bash
 
 script:
-        - bash validate.sh
+  - bash validate.sh
 
 notifications:
   irc:
@@ -10,5 +10,3 @@ notifications:
       - "irc.hackthissite.org#ctf"
     use_notice: true
     skip_join: true
-  email:
-    - x509.email@gmail.com
