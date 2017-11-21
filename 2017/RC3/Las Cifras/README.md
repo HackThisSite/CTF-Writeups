@@ -14,7 +14,9 @@ So I discovered that cipher used is Philip II cipher.
 Rules for decrypting were following:
 
 1.look up symbol in the table
+
 2.if it has one dot under or above it's insignificant character
+
 3.if it has 2 dots above or under it it's double letter
 
 Plaintext is:
