@@ -1,0 +1,12 @@
+---
+language: bash
+
+script:
+  - bash validate.sh
+
+notifications:
+  irc:
+    channels:
+      - "irc.hackthissite.org#ctf"
+    use_notice: true
+    skip_join: true

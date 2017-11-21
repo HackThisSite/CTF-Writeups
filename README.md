@@ -4,6 +4,10 @@
 
 ## CTFs We Participated In
 
+### 2017
+* [AlexCTF](https://ctf.oddcoder.com/)
+* [Boston Key Party](http://bostonkey.party/)
+* EasyCTF
 
 ### 2016
 * [ABCTF](http://abctf.xyz/)
@@ -22,6 +26,12 @@
 
 * [Easy CTF](http://easyctf.com/)
   * [Repo of challenges](https://writeups.easyctf.com/)
+
+## Build Status
+
+We use Travis CI to ensure write-ups follow consistency standards.
+
+Last build status: [![Build Status](https://travis-ci.org/HackThisCode/CTF-Writeups.svg?branch=master)](https://travis-ci.org/HackThisCode/CTF-Writeups)
 
 ## Licences
 
