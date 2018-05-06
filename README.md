@@ -31,7 +31,7 @@
 
 We use Travis CI to ensure write-ups follow consistency standards.
 
-Last build status: [![Build Status](https://travis-ci.org/HackThisCode/CTF-Writeups.svg?branch=master)](https://travis-ci.org/HackThisCode/CTF-Writeups)
+Last build status: [![Build Status](https://travis-ci.org/HackThisSite/CTF-Writeups.svg?branch=master)](https://travis-ci.org/HackThisSite/CTF-Writeups)
 
 ## Licences
 
