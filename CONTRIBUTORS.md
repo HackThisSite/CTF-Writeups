@@ -24,3 +24,8 @@ We are proud to acknowledge the following contributors to the HackThisSite CTF W
 ## Zylopfa [![Github Icon](https://assets-cdn.github.com/favicon.ico "Github Repository")](https://github.com/zylopfa)
 * CTF Competitor
 * Writeup Contributor
+
+## Pyhscript (NETWORKsecurity) [![Github Icon](https://assets-cdn.github.com/favicon.ico "Github Repository")](https://github.com/pyhscript)
+* CTF Competitor
+* Writeup Contributor
+
