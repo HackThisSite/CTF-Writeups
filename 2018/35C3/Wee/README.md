@@ -23,17 +23,17 @@ overlapped to some degree.
 
 - DB Secret
 - localhost
-- Logged in
+- [Logged in](../Logged-in)
 - NOT IMPLEMENTED
 
 ### Misc
-- /dev/null
-- Conversion Error
-- Equality Error
-- Layers
-- Number Error
-- Wee R Leet
-- Wee Token
+- [/dev/null](../dev-null)
+- [Conversion Error](../Conversion-Error)
+- [Equality Error](../Equality-Error)
+- [Layers](../Layers)
+- [Number Error](../Number-Error)
+- [Wee R Leet](../Wee-R-Leet)
+- [Wee Token](../Wee-Token)
 
 ### Crypto
 - Decrypted
@@ -65,4 +65,4 @@ While the server doesn't require much comment there are a few things to note in
 the interpreter source. It runs code inside a Chromium instance using the
 [Puppeteer](https://github.com/GoogleChrome/puppeteer) library. The file also
 contains a few special functions used in further challenges. Among them is the
-`eval` function which evaluates *Java Script* in context of the browser.
+`eval` function which evaluates *JavaScript* in context of the browser.
