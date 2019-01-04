@@ -1,0 +1,7 @@
+[package]
+name = "ultra_secret"
+version = "0.1.0"
+authors = ["Benedikt Constantin Radtke <benediktradtke@mailbox.tu-berlin.de>"]
+
+[dependencies]
+rust-crypto = "0.2.36"
