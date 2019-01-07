@@ -34,7 +34,7 @@ if not request.path[-3:] in ["jpg", "png", "gif"]:
 If request path does not end in "jpg", "png" or "gif" and remote address is equal to 127.0.0.1 flag is discovered.
 
 ## Solution
-NOTE: Solution requires being already logged in, see (logged in writeup)[https://github.com/HackThisSite/CTF-Writeups/tree/master/2018/35C3-Junior/Logged-in]
+NOTE: Solution requires being already logged in, see [logged in writeup](https://github.com/HackThisSite/CTF-Writeups/tree/master/2018/35C3-Junior/Logged-in)
 Since it's necessary that request originates from localhost I started searching for some kind of proxying functionality in code and found "/api/proxyimage".
 
 ```python

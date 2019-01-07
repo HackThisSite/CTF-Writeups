@@ -1,9 +1,13 @@
 # Not(e) accessible
 
 >Solves: 130
+
 >We love notes. They make our lifes more structured and easier to manage! In 2018 everything has to be digital, and that's why we built our very own note-taking system using micro services: Not(e) accessible! For security reasons, we generate a random note ID and password for each note.
+
 >Recently, we received a report through our responsible disclosure program which claimed that our access control is bypassable...
+
 >http://35.207.132.47:90
+
 >Difficulti estimate: Easy-Medium
 
 ## Analysis

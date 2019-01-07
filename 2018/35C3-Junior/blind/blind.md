@@ -1,8 +1,11 @@
 # Blind
 
 >Solves: 57
+
 >Hacking blind: http://35.207.132.47:82
+
 >Flag is at /flag
+
 >Difficulty estimate: Medium
 
 ## Disclaimer: Credit goes to @dgeex, he solved this challenge before I did 
@@ -70,7 +73,7 @@ We can create instance of any included class. It'd be great if one of them allow
 ## Solution
 
 We're looking for already included class with __construct that has minimally 4 arguments and allows for fourth one to be empty.
-(This page)[http://php.net/manual/en/reserved.classes.php] listed some already included classes , sadly none of them were usable for reading file.
+[This page](http://php.net/manual/en/reserved.classes.php) listed some already included classes , sadly none of them were usable for reading file.
 However text says something interesting:
 >Miscellaneous extensions define other classes which are described in their reference. 
 

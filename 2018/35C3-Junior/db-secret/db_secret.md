@@ -1,6 +1,7 @@
 # DB Secret
 
 > Solves:61
+
 > To enable secure microservices (or whatever, we don't know yet) over Wee in the future, we created a specific DB_SECRET, only known to us. This token is super important and extremely secret, hence the name. The only way an attacker could get hold of it is to serve good booze to the admins. Pretty sure it's otherwise well protected on our secure server.
 
 >http://35.207.132.47/

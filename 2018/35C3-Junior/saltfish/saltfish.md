@@ -1,7 +1,9 @@
 ## Saltfish
 
 > Solves: 105
+
 > "I have been told that the best crackers in the world can do this under 60 minutes but unfortunately I need someone who can do this under 60 seconds." - Gabriel
+
 > http://35.207.132.47:86
 
 ## Analysis
@@ -26,7 +28,7 @@ Page displays its source code:
 Alright so this is quite weird code, it checks whether SUM of md5 of supplied password and first character of password is equal to the md5 of user agent.
 If that is true it checks whether first character of password is equal to first character of md5 hash of concatenated first character and flag.
 
-However what is important to note here is that all comparisons are (loose)[http://php.net/manual/en/types.comparisons.php].
+However what is important to note here is that all comparisons are [loose](http://php.net/manual/en/types.comparisons.php).
 
 ## Solution
 
