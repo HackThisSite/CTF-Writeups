@@ -4,6 +4,9 @@
 
 ## CTFs We Participated In
 
+### 2018
+* [35C3 Junior CTF](https://archive.aachen.ccc.de/junior.35c3ctf.ccc.ac/)
+
 ### 2017
 * [AlexCTF](https://ctf.oddcoder.com/)
 * [Boston Key Party](http://bostonkey.party/)
