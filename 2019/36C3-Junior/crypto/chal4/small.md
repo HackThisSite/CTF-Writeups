@@ -9,7 +9,7 @@
 
 We're given the following challenge description:
 
-`Missing. To be added.`
+`When things are small you have to be carefull!`
 
 and a file with the following contents:
 
