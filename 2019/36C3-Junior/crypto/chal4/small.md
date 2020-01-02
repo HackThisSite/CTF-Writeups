@@ -81,4 +81,4 @@ And there you have it. Enjoy. :)
 #### References
 
 - [ctf101.org - What is RSA](https://ctf101.org/cryptography/what-is-rsa/)
-- [Wikipedia - RSA(cryptosystem)](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
+- [Wikipedia - RSA (cryptosystem)](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
