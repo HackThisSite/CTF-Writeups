@@ -50,24 +50,34 @@ n = 3188286475373345770690035519556174593620572816368854534475562435588530267752
 e = 3
 ```
 
-We can see that the exponent **is** a small number. So by just following the approach:
+We can see that the exponent **is** a small number. To calculate 
+it, you would usually do:
 
 ```
 m = pow(c, (1/e))
 ```
 
-we should get:
+Where you should get:
 
 
 ```
 6.484877229948686e+36
 ```
 
-**NOTE**: Be careful how you calculate your roots. I'd recommend using Wolframalpha.
+While I am not aware how to get the whole value, turns out 
+the library `gmpy2` is pretty handy when calculating.
+
+```
+> import gmpy2
+> value, _ = gmpy2.iroot(c, e)
+```
+
+**NOTE**: Be careful how you calculate your roots. You can use 
+`gmpy2` or Wolframalpha if you don't feel like installing packages.
 
 By calculating it correctly, you should come up with a value of:
 
-`value = 6484877229948717415163579969767084212`.
+`value = mpz(6484877229948717415163579969767084212)`.
 
 And now, as the challenge says, you would want to convert it to `base 35`. You can do it in multiple ways, but I found it easier just to use `gmpy2` library.
 
