@@ -4,6 +4,9 @@
 
 ## CTFs We Participated In
 
+### 2019
+* [36C3 Junior CTF](https://2019.ctf.link/public/login)
+
 ### 2018
 * [35C3 Junior CTF](https://archive.aachen.ccc.de/junior.35c3ctf.ccc.ac/)
 
