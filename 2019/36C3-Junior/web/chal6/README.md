@@ -10,7 +10,7 @@ The file is mostly unreadable and of little use in its current form. It should b
 
 A simpler heuristic approach is also viable. By examining the readable characters one can find the `/echo` endpoint and guess that it accepts an `s` parameter. It is also worth noting that the file includes references to `render_template`, `render_template_string` and `Flask`. This can be used to infer that inputs given to the application will be parsed using the Jinja2 templating engine.
 
-WJinja2 doesn't exactly allow for embedding arbitrary Python expressions but it is possible to [traverse the object tree](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Server%20Side%20Template%20Injection#read-remote-file) to reach useful functions such as `file()`.
+Jinja2 doesn't exactly allow for embedding arbitrary Python expressions but it is possible to [traverse the object tree](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Server%20Side%20Template%20Injection#read-remote-file) to reach useful functions such as `file()`.
 
 ## Solution
 
