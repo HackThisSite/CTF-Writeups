@@ -4,6 +4,9 @@
 
 ## CTFs We Participated In
 
+### 2020
+* [Hack-A-Sat Qualifier](https://www.hackasat.com)
+
 ### 2019
 * [36C3 Junior CTF](https://2019.ctf.link/public/login)
 
