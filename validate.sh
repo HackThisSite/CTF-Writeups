@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Testing for forbidden characters (<>:\\|?*):"
+echo "Testing filenames for forbidden characters (<>:\\|?*):"
 
 flag=0
 
