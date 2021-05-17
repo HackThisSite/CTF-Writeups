@@ -4,6 +4,9 @@
 
 ## CTFs We Participated In
 
+### 2021
+* [dCTF](https://dctf.dragonsec.si)
+
 ### 2020
 * [Hack-A-Sat Qualifier](https://www.hackasat.com)
 
