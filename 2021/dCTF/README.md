@@ -18,3 +18,37 @@
 
 * [Scoreboard](https://dctf.dragonsec.si/scoreboard)
 * [HackThisSite Team](https://dctf.dragonsec.si/teams/203)
+
+## Writeups
+
+### Misc
+
+* Encrypted the flag I have
+* Dragon
+* Don't let it run
+* Hidden message
+* Leak Spin
+* Extraterrestrial Communication
+* Bad Apple
+
+### Crypto
+
+* Strong password
+* Julius ancient script
+* This one is really basic
+
+### Pwn
+
+* Pwn sanity check
+
+### Web
+
+* Simple web
+* Secure API
+* Injection
+* [Very secure website](web/very-secure-website/README.md)
+* DevOps vs SecOps
+
+### Welcome
+
+* [Sanity Check](welcome/sanity-check/README.md)
