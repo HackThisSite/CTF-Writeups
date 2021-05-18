@@ -1,13 +1,17 @@
-Challenges: This one is really basic
-
-Points: 300
-
-Category: Crypto
-
-Objective: Find the flag from the given text
+# This one is really basic
 
 
-Process to find the flag: This challenge was really easy, it just required a smart brain.
+> Tags: crypto  
+> Points: 300
+
+
+## Challenge Description
+
+> The answer to life, the universe, and everything.  
+
+
+## Analysis
+This challenge was really easy, it just required a smart brain.
 
 I tried a few things before I got the flag, I tried to search for the keyword ‘dctf’ in the text but couldn’t find it. 
 
