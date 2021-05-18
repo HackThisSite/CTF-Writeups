@@ -22,6 +22,6 @@ Here is the link to the site: https://aperisolve.fr/
 <br>
 So when I uploaded the image here I quickly spotted the flag.
 <br><br>
- 
-<br>
+![image](https://github.com/thirty2/CTF-Writeups/blob/master/2021/dCTF/misc/Dragon/image.png)
+<br><br>
 The flag: dctf{N0w_Y0u_s3e_m3}
