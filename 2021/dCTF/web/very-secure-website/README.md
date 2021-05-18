@@ -1,13 +1,17 @@
 # Very secure website
 
-> Tags: web, php
-> Points: 200
-> Solves: 399
+<blockquote>
+Tags: web, php<br>
+Points: 200<br>
+Solves: 399
+</blockquote>
 
 ## Challenge Description
 
-> Some students have built their most secure website ever. Can you spot their mistake?
-> http://dctf1-chall-very-secure-site.westeurope.azurecontainer.io/
+<blockquote>
+Some students have built their most secure website ever. Can you spot their mistake?<br>
+http://dctf1-chall-very-secure-site.westeurope.azurecontainer.io/
+</blockquote>
 
 ## Analysis
 
