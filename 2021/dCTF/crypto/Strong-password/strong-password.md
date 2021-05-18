@@ -1,15 +1,15 @@
-Challenge: Strong Password
-
-Points: 100
-
-Category: Crypto
-
-Objective: Retrieve the flag from a password protected zip file
-
-Hint: Don't use fcrackzip(this hint was added later on)
+## Strong Password
 
 
-Process to find the flag: So first of all I tried all the passwords I could think of and none of them worked.
+> Tags: crypto, file, password, zip  
+> Points: 100  
+
+## Challenge Description
+
+>Zip file with a password. I wonder what the password could be?
+
+## Analysis
+So first of all I tried all the passwords I could think of and none of them worked.
 
 As I couldn’t find any password that would work I went to google and started looking for how to brute force a password for zip file and I stumbled across an app to brute force password, I tried it and it did not work at all, so I did some more research and found fcrackzip and I left it running for an hour and wasn’t working either, then the hint was uploaded and it said don’t use fcrackzip.
 
