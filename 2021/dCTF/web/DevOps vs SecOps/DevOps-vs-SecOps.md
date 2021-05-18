@@ -7,7 +7,7 @@ Category: Web
 Objective: Find the flag
 <br>
 Hint: What does automation and DevOps remind you of? For me thats CI/CD...
-<br>
+<br><br>
 Process to find the flag: So first of all this is not a Web challenge, this is a Misc challenge the devs added it in the web category by mistake.
 <br>
 So if a user completed Leak Spin, they could complete DevOps vs SecOps as well, because when you find Leak Spin challenge on the GitHub you will see two more repositories.
