@@ -16,6 +16,6 @@ So, now I tried to focus on the hint, the hint is related to how the first image
 <br>
 I quickly downloaded it and uploaded the audio file on it and found this
 <br><br>
-![flag](
+![flag](https://github.com/thirty2/CTF-Writeups/blob/master/2021/dCTF/misc/Extraterrestrial-communication/image.png)
 <br>
 The flag: dctf{wHat_ev3n_1s_SSTV}
