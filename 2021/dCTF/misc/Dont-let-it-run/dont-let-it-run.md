@@ -1,11 +1,14 @@
-Challenge: Don’t let it run
-<br>
-Points: 100
-<br>
-Category: Misc
-<br>
-Objective: Find the flag from provided PDF
-<br><br>
+# Don't Let It Run
+
+
+> Tags: Misc  
+> Points: 100  
+
+## Challenge Description
+> PDF documents can contain unusual objects within.
+
+
+## Analysis
 Process to find the flag: I had never done a challenge where we had to find the flag in a PDF so this was new to me.
 <br>
 Whenever I get stuck with something I always go to YouTube to check how other people do this kind of stuff, so I quickly searched for “how to analyze PDFs for CTFs”, and then I found this video: https://www.youtube.com/watch?v=0IY8ir5dGGw&t.
