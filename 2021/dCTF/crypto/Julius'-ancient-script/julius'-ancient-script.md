@@ -1,15 +1,17 @@
 # Julius' Ancient Script
 
-<blockquote>
- Tags: Crypto
- Points: 100
-</blockquote>  
+
+> Tags: Crypto  
+> Points: 100  
+
 
 ## Challenge Description
+
 
 >I found this Ancient Roman papyrus. Could you decypher it for me?
 
 ## Analysis
+
 So the text that was given to us was this: rq7t{7vH_rFH_vI6_pHH1_qI67}.
 
 I tried a few decoders such as cyberchef, cryptii and some unpopular sites as well but none of them seemed to work.
