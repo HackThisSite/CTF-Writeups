@@ -18,20 +18,25 @@ So once again I went in search for a tool to crack open zip files and I found ou
 I already had this tool and had used before so I did not have any problem with it.
 <br>
 I quickly got the zip file’s hash like this:
- 
-
+<br><br>
+![hash](https://github.com/thirty2/CTF-Writeups/blob/master/2021/dCTF/pwn/pwn-sanity-check/hash.png)
+<br>
 Then I used john to brute force and get the password, I also used rockyou.txt (https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt) wordlist for cracking the password
- 
+<br><br>
+![finding_password](https://github.com/thirty2/CTF-Writeups/blob/master/2021/dCTF/pwn/pwn-sanity-check/find_password.png)
+<br>
 The password: Bo38AkRcE600X8DbK3600
 <br>
 Then I opened the file inside of the zip file 
- 
-
-
+<br><br>
+![content_inside_the_zip_file](https://github.com/thirty2/CTF-Writeups/blob/master/2021/dCTF/pwn/pwn-sanity-check/content.png)
+<br>
 It had this text
- 
-
+<br><br>
+![text_found_inside_the_file](https://github.com/thirty2/CTF-Writeups/blob/master/2021/dCTF/pwn/pwn-sanity-check/text.png)
+<br>
 So I just pressed Ctrl+F and then searched for “dctf” and found this
- 
-
+<br><br>
+![search](https://github.com/thirty2/CTF-Writeups/blob/master/2021/dCTF/pwn/pwn-sanity-check/search.png)
+<br>
 The flag: dctf{r0cKyoU_f0r_tHe_w1n}
