@@ -1,10 +1,8 @@
 # Sanity Check
 
-<blockquote>
-Tags: welcome, sanity<br>
-Points: 50<br>
-Solves: 931
-</blockquote>
+> Tags: welcome, sanity  
+> Points: 50  
+> Solves: 931
 
 ## Challenge Description
 
