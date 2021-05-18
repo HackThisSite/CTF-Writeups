@@ -14,16 +14,20 @@ I quickly started Sonic Visualizer to look at the video as I found John Hammond 
 <br>
 Then I uploaded the audio file and looked at it and found absolutely nothing, then I watched a few more videos on how to analyze audio files and in one of the videos the person was using spectrogram to analyze the audio more deeply, so I did the same thing I applied spectrogram using Shift+G, one can also use this method to apply spectrogram:
 <br><br>
-![]()
+![apply_spectrogram](https://github.com/thirty2/CTF-Writeups/blob/master/2021/dCTF/misc/Bad-apple/apply_spectrogram.png)
 <br>
 After applying spectrogram, I spotted this
- 
-
+<br><br> 
+![qr_code](https://github.com/thirty2/CTF-Writeups/blob/master/2021/dCTF/misc/Bad-apple/qr_code.png)
+<br>
 I tried to scan the QR code like this but it did not work, so I changed its color from the panel on the right:
- 
- 
+<br><br>
+![default_color](https://github.com/thirty2/CTF-Writeups/blob/master/2021/dCTF/misc/Bad-apple/default_color.png)
+<br>
+![color_changed](https://github.com/thirty2/CTF-Writeups/blob/master/2021/dCTF/misc/Bad-apple/color_change.png)
+<br>
 I changed the color from green to White on Black, and then scanned the QR Code.
+<br>
 Then I finally got the flag.
+<br>
 The flag: dctf{sp3ctr0gr4msAreCo0l}
-
-
