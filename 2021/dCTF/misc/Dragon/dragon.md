@@ -1,11 +1,14 @@
-Challenge: Dragon
-<br>
-Points: 100
-<br>
-Category: Misc
-<br>
-Objective: Find the flag from the provided image
-<br><br>
+# Dragon
+
+
+> Tags: stego  
+> Points: 100  
+
+
+## Description
+> Hiding in plain sight.
+
+## Analysis
 Process to find the flag: So first of all I tried a couple of tools such zsteg, exiftool and stegsolve to find the flag.
 <br>
 I knew it wasn’t going to be hard because it was just of 100 points.
