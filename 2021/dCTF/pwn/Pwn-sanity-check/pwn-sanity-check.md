@@ -54,5 +54,7 @@ So this is the python script that we wrote
 So basically the address the computer will go to after the function is right after the area we are reading data into. 
 So we just overwrite the address and the data that is being repeated 32 times is the address.
 The result of this command is 
- 
+<br><br>
+![result](https://github.com/thirty2/CTF-Writeups/blob/master/2021/dCTF/pwn/Pwn-sanity-check/result_pwn.png)
+<br>
 The flag: dctf{Ju5t_m0v3_0n}
