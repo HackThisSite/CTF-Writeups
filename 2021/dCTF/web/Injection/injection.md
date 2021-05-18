@@ -5,13 +5,13 @@ Points: 200
 Category: Web
 <br>
 Objective: Go to the given URL and get the flag
-<br>
+<br><br>
 Process of find the flag: So when I opened up the URL I saw a basic login form, I thought we need to use SQL injection to exploit it, I tried a lot of SQL injections but none of them worked, then I thought maybe XSS injections would work so I tried a lot of XSS injections, this all took me around 1.5 hours to two hours and the result was nothing I did not make any progress at all.
-<br>
+<br><br>
 So after a few hours of rest and a couple of challenges later I came back to it, because one of my friends gave me a hint that its related to Server Side Template Injection(SSTI), so I quickly watched a few YouTube videos to understand how SSTI works.
-<br>
+<br><br>
 After watching the videos I googled ‘SSTI payload cheatsheet’ and found a lot of resources full of SSTI payloads, then I tried all of them in the input field and none of them worked at all, then later on I got to know that I need to add those payloads at the end of the URL and not in the input fields, so I quickly tried a few basic payloads and they seem to be working, so now I just had to find the correct payload.
-<br>
+<br><br>
 I found this payload 
 ```
 
