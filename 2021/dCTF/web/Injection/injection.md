@@ -21,7 +21,7 @@ I found this payload
 <br>
 What this does is, it imports OS module, and allows us to use OS commands, so when we use ls command we get this 
 <br><br> 
-![content](https://github.com/thirty2/CTF-Writeups/blob/master/2021/dCTF/web/Injection/content.png)
+<img src='https://github.com/thirty2/CTF-Writeups/blob/master/2021/dCTF/web/Injection/content.png'>
 <br>
 
 So no we needed to check all the other folders and the app.py file.
