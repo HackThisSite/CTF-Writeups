@@ -23,31 +23,31 @@
 
 ### Misc
 
-* Encrypted the flag I have
-* Dragon
-* Don't let it run
-* Hidden message
-* Leak Spin
-* Extraterrestrial Communication
-* Bad Apple
+* [Encrypted the flag I have](misc/Encrypted-the-flag-I-have/encrypted-the-flag-i-have.md)
+* [Dragon](misc/Dragon/dragon.md)
+* [Don't let it run](misc/Dont-let-it-run/dont-let-it-run.md)
+* [Hidden message](misc/Hidden-message/hidden-message.md)
+* [Leak Spin](misc/Leak-spin/leak-spin.md)
+* [Extraterrestrial Communication](misc/Extraterrestrial-communication/extraterrestrial-communication.md)
+* [Bad Apple](misc/Bad-apple/bad-apple.md)
 
 ### Crypto
 
-* Strong password
-* Julius ancient script
-* This one is really basic
+* [Strong password](crypto/Strong-password/strong-password.md)
+* [Julius ancient script](crypto/Julius'-ancient-script/julius'-ancient-script.md)
+* [This one is really basic](crypto/This-one-is-really-basic/this-one-is-really-basic.md)
 
 ### Pwn
 
-* Pwn sanity check
+* [Pwn sanity check](pwn/Pwn-sanity-check/pwn-sanity-check.md)
 
 ### Web
 
-* Simple web
-* Secure API
-* Injection
+* [Simple web](web/Simple-web/simple-web.md)
+* [Secure API](web/Secure-API/secure-api.md)
+* [Injection](web/Injection/injection.md)
 * [Very secure website](web/very-secure-website/README.md)
-* DevOps vs SecOps
+* [DevOps vs SecOps](web/DevOps%20vs%20SecOps/DevOps-vs-SecOps.md)
 
 ### Welcome
 
