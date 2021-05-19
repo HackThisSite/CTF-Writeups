@@ -1,4 +1,4 @@
-## Strong Password
+# Strong Password
 
 
 > Tags: crypto, file, password, zip  
